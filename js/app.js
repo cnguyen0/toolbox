@@ -14,8 +14,6 @@ $(function() {
 	        xhr.setRequestHeader('Authorization', 'Client-ID b98d0531a4a4dca');
 	    },
 	    success: function(data) {
-	        var betterData = JSON.parse(data);
-	        console.log(betterData);
 	        allCats = ($.parseJSON(data)).data.map(function(item) {
 			    return {title: item.title, description: item.description, link: item.link};
 	        });	
