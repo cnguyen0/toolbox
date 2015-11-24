@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>cat tinder.</title>
+
+        <!-- page icon -->
+        <link rel="shortcut icon" href="img/cat-icon.png">
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+        <!-- CSS link -->
+        <link rel="stylesheet" href="css/main.css">
+
+        <!-- lodash -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.js"></script>
+
+        <!-- font awesome -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+        <!-- jQuery -->
+       <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script> 
+
+       <!-- Javascript link -->
+        <script src="js/app.js"></script>
+
+        <script src="velocity.min.js"></script> 
+
+    </head>
+    <body>
+        <div class="header">
+            <h1>Cat Tinder</h1>
+            <p>Find your purr-fect catmate today!</p>
+            <p>*Disclaimer* Cats do not know how to use computers, so don't feel offended when you do not get a "match"</p>
+        </div>
+
+        <!-- Candidate -->
+        <div class="container">
+            <img id="displayCat" />
+            <h2 id="displayDescription"></h2>
+            <p id="displayTitle"></p>
+            <p class="bg-danger">oops! you are currently out of cats to look at. please refresh to start over</p>
+        </div>
+
+        <div class="container swipeButtons">
+            <button class="btn btn-danger" id="no">
+                <i class="fa fa-times-circle"></i> Swipe left
+            </button>
+            <button class="btn btn-success" id="yes">
+                <i class="fa fa-check-circle"></i> Swipe right
+            </button>
+        </div>
+
+        <footer>
+            <p>Pictures are produced and taken by their respective owner. Pictures can be found on <a href="https://pixabay.com/">Pixabay.com</a></p>
+            <div>Icon made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed under <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></div>
+        </footer>
+    </body>
+</html>
