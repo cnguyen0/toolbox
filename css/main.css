@@ -15,6 +15,11 @@ body {
 	display: none;
 }
 
+#disclaimer {
+	font-family: bold;
+	color: red;
+}
+
 #displayCat {
 	height: 400px;
 }
